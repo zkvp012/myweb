@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+
+h1 {
+
+    text-align: center;
+    font-size:300%;
+    padding: 20px;
+    margin: 0;
+}
+
+div {
+    
+    width:500px;
+    margin:0 auto;
+}
+
+table {
+    margin:0 auto;
+}
+
+td {
+    color: gray;
+    width: 300px;
+    border-bottom:1px solid gray;
+}
+th{
+    width: 100px;
+    border:1px solid black;
+}
+p{
+    margin-left: 50px;
+}
+p1{
+    color: green;
+}
+p2{
+    margin-left: 150px;
+}
+p3{ 
+    color: white;
+    background-color: yellowgreen;
+    padding-left: 170px;
+    padding-right:170px;
+
+}

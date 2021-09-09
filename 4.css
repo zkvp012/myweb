@@ -1,0 +1,87 @@
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: none;
+    background-color:white;
+}
+.modal.show{
+    display: block;
+}
+
+.modal_body{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 400px;
+    height: 600px;
+
+    padding: 40px;
+
+    text-align: center;
+
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba(50, 35, 36, 36);
+
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.menu{
+    padding: 50px;
+    font-size: 20px;
+}
+.number{
+    color:red;
+    position: absolute;
+    top: 10px;
+    left: 3%;
+    font-size: 60px;
+}
+p{  
+    color:red;
+    position: absolute;
+    right: 3%;
+    bottom: 0%;
+    font-size: 60px;
+}
+.dia{
+    
+   
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    right: 50px;
+    height: 500px;
+
+}
+.diamond{
+    color:red;
+    font-size: 80px;
+    margin-top: 50px;
+    position: absolute;
+    top:150px;
+    left: 150px;
+}
+.diamond_left{
+    color:red;
+    font-size: 80px;
+    position: absolute;
+    left: 20%;
+    bottom:10%;
+
+}
+
+.diamond_right{
+    color:red;
+    font-size: 80px;
+    position: absolute;
+    right: 20%;
+    bottom:10%;
+}
